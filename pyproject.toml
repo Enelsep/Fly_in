@@ -1,0 +1,23 @@
+[project]
+name = "fly-in"
+version = "0.1.0"
+description = "Send the drones !"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic",
+    "pygame",
+    "numpy",
+    "mypy",
+    "flake8"
+]
+[tool.mypy]
+warn_return_any = true
+explicit_package_bases = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+exclude = [
+    '^\\.venv/',
+]
