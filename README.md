@@ -7,6 +7,8 @@ The goal is to Design an efficient drone routing system that navigates multiple 
 through connected zones while minimizing simulation turns and handling movement constraints.
 The routing is represented by a terminal text output and a Pygame visualisation.
 
+![flyin](flyin.gif)
+
 <h1>II - Instructions:</h1>
 
 > Make run
